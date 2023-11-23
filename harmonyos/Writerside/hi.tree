@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE instance-profile
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
-
 <instance-profile id="hi"
-                 name="Help Instance"
-                 start-page="Default-topic.md">
+                 name="HarmonyOS开发学习笔记"
+                 start-page="目录.md">
 
+    <toc-element topic="目录.md">
+        <toc-element topic="初识ArkTS.md"/>
+        <toc-element topic="基本语法.md">
+            <toc-element topic="基本语法概述.md"/>
+        </toc-element>
+        <toc-element topic="状态管理.md">
+            <toc-element topic="状态管理概述.md"/>
+        </toc-element>
+    </toc-element>
     <toc-element topic="Default-topic.md"/>
 </instance-profile>
